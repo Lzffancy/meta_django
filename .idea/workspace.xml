@@ -2,29 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7b28065-6064-48f3-880e-c8888e2c3a3b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/meta_django_box.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meta_django_box/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meta_django_box/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meta_django_box/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meta_django_box/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meta_django_box/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meta_django_box/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sys_config.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_query/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_query/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_query/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_query/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_query/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_query/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_query/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_query/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_query/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meta_django_box/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/meta_django_box/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sys_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/sys_config.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/meta_django_box/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1445">
-              <caret line="89" selection-start-line="89" selection-end-line="89" />
+            <state relative-caret-position="221">
+              <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
               <folding>
                 <element signature="e#316#325#0" expanded="true" />
               </folding>
@@ -49,20 +29,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+            <state relative-caret-position="34">
+              <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sys_config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="5" selection-start-line="1" selection-end-line="1" selection-end-column="5" />
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -162,17 +142,17 @@
         <option value="$PROJECT_DIR$/meta_django_box/urls.py" />
         <option value="$PROJECT_DIR$/test_query/models.py" />
         <option value="$PROJECT_DIR$/test_query/views.py" />
-        <option value="$PROJECT_DIR$/sys_config.py" />
-        <option value="$PROJECT_DIR$/meta_django_box/settings.py" />
         <option value="$PROJECT_DIR$/.gitignore.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/sys_config.py" />
+        <option value="$PROJECT_DIR$/meta_django_box/settings.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="575" />
+    <option name="x" value="825" />
     <option name="y" value="77" />
-    <option name="width" value="979" />
+    <option name="width" value="1098" />
     <option name="height" value="1049" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -187,6 +167,11 @@
           <expand>
             <path>
               <item name="meta_django_box" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meta_django_box" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meta_django_box" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meta_django_box" type="462c0819:PsiDirectoryNode" />
               <item name="meta_django_box" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -258,7 +243,7 @@
       <option name="presentableId" value="Default" />
       <updated>1646642617216</updated>
       <workItem from="1646642692206" duration="18092000" />
-      <workItem from="1646797075915" duration="3747000" />
+      <workItem from="1646797075915" duration="4158000" />
     </task>
     <task id="LOCAL-00001" summary="update git ignore">
       <created>1646800917994</created>
@@ -267,11 +252,18 @@
       <option name="project" value="LOCAL" />
       <updated>1646800917994</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update git ignore">
+      <created>1646801381330</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1646801381330</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21839000" />
+    <option name="totallyTimeSpent" value="22250000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -283,10 +275,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="460" y="62" width="783" height="839" extended-state="0" />
+    <frame x="660" y="62" width="878" height="839" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21655172" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19146341" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
@@ -348,23 +340,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore.py" />
-    <entry file="file://$PROJECT_DIR$/meta_django_box/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1445">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
-          <folding>
-            <element signature="e#316#325#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sys_config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="5" selection-start-line="1" selection-end-line="1" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_query/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -417,8 +392,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        <state relative-caret-position="34">
+          <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meta_django_box/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+          <folding>
+            <element signature="e#316#325#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sys_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
