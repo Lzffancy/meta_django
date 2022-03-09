@@ -1,4 +1,5 @@
-.idea/
-.sys_config.py
-.log_file/
-.vscode
+/.idea/
+/sys_config.py
+/log_file/
+/.vcode/
+/.__pycache__/
