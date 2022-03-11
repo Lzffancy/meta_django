@@ -1,0 +1,7 @@
+sys_config.py
+log/
+.vscode/
+.pyc
+.idea
+/test
+**/__pycache__
