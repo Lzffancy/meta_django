@@ -38,12 +38,20 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'test_query'
+    'corsheaders',
+    'rest_framework',
+    'test_query',
+    'message_board',
+
 ]
+# 接受所有跨区域，后期应该改为仅接受本网站的请求
+# 或者使用token验证
+CORS_ALLOW_ALL_ORIGINS = True
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -57,7 +65,7 @@ ROOT_URLCONF = 'meta_django_box.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates')]
+        'DIRS': [os.path.join(BASE_DIR, 'meta_web_vue/dist')]
         ,
         'APP_DIRS': True,
         'OPTIONS': {
@@ -122,6 +130,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/'
+# vue3
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "meta_web_vue/dist/static"),
+]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
@@ -131,5 +143,17 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # logging
 LOGGING = com_config.DEFAULT_LOGGING
 
-# if __name__ == '__main__':
-#     print(BASE_DIR)
+
+# festful框架所需 验证
+# REST_FRAMEWORK = {
+#         'DEFAULT_PERMISSION_CLASSES': [
+#             'rest_framework.permissions.IsAuthenticated',
+#         ],
+#         'DEFAULT_AUTHENTICATION_CLASSES': (
+#             'rest_framework.authentication.BasicAuthentication',  # enables simple command line authentication
+#             'rest_framework.authentication.SessionAuthentication',
+#             'rest_framework.authentication.TokenAuthentication',
+#         )
+#     }
+# # if __name__ == '__main__':
+#     print(BASE_DIR) #D:\meta_django_box

@@ -1,4 +1,4 @@
-# meta_web_vue
+# meta_web_front
 
 ## Project setup
 ```

@@ -10,6 +10,8 @@ import logging
 logger = logging.getLogger(__name__)
 
 
+# 日志中间件 用于捕获请求和响应信息
+
 class LogMiddle(MiddlewareMixin):
     # 日志处理中间件
     def process_request(self, request):

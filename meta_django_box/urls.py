@@ -15,18 +15,25 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include, re_path
+from django.views.generic import TemplateView
+
+from message_board.views import MessageBoardViewSet
 from meta_django_box import views
 
+# restful注册view
+from rest_framework import routers
+
+router = routers.DefaultRouter()
+router.register(r"message_borad",MessageBoardViewSet)
 urlpatterns = [
     path('admin/', admin.site.urls),
-
+    path('rest_api/',include(router.urls)),
     # query function page
     # todo test_query后面需不需要适应斜杠？
     path("test_query/", include("test_query.urls")),
     # home page
 
-
     # 兜底 无法匹配的路由全部导向首页
-    re_path(r'.*', views.home),
+    # re_path(r'.*', TemplateView.as_view(template_name="index.html")),
 
 ]
