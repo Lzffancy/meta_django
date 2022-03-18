@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'corsheaders',
     'rest_framework',
+    # 'meta_web_front',
     'test_query',
     'message_board',
 
@@ -65,7 +66,7 @@ ROOT_URLCONF = 'meta_django_box.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'meta_web_vue/dist')]
+        'DIRS': [os.path.join(BASE_DIR, 'meta_web_front/dist')]
         ,
         'APP_DIRS': True,
         'OPTIONS': {
@@ -117,22 +118,18 @@ AUTH_PASSWORD_VALIDATORS = [
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
 
 LANGUAGE_CODE = 'en-us'
-
-TIME_ZONE = 'UTC'
-
+TIME_ZONE = 'Asia/Shanghai'
 USE_I18N = True
-
 USE_L10N = True
-
 USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
-
+# dj自收集的静态目录
 STATIC_URL = '/static/'
-# vue3
+# vue3 dj额外收集的静态目录
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "meta_web_vue/dist/static"),
+    os.path.join(BASE_DIR, "meta_web_front/dist/static"),
 ]
 
 # Default primary key field type
@@ -142,7 +139,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # logging
 LOGGING = com_config.DEFAULT_LOGGING
-
 
 # festful框架所需 验证
 # REST_FRAMEWORK = {

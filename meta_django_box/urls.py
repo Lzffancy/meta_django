@@ -24,15 +24,15 @@ from meta_django_box import views
 from rest_framework import routers
 
 router = routers.DefaultRouter()
-router.register(r"message_borad",MessageBoardViewSet)
+router.register(r"message_board", MessageBoardViewSet)
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('rest_api/',include(router.urls)),
+    path('rest_api/', include(router.urls)),
     # query function page
     # todo test_query后面需不需要适应斜杠？
     path("test_query/", include("test_query.urls")),
     # home page
-
+    path('', TemplateView.as_view(template_name="index.html"))
     # 兜底 无法匹配的路由全部导向首页
     # re_path(r'.*', TemplateView.as_view(template_name="index.html")),
 
