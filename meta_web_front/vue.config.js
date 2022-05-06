@@ -3,7 +3,7 @@ module.exports = defineConfig({
   transpileDependencies: true,
 devServer: {
       //使用本地局域网的Ip
-    host:'192.168.8.123',   //主机 访问的主机
+    host:'0.0.0.0',   //主机 访问的主机
     port: 8080,  //  端口 可以设置（9090）
     //代理
     proxy:{ }

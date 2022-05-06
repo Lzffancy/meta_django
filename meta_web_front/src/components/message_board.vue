@@ -15,11 +15,11 @@
         </thead>
         <tbody>
         <tr v-for="item in ly_list" :key="item.url">
-          <!--        内容-->
-          <td>{{item.title}}</td>
-          <td>{{item.author}}</td>
-          <td>{{item.content}}</td>
-          <td>{{item.c_time}}</td>
+          <!--       内容-->
+          <td>{{ item.title }}</td>
+          <td>{{ item.author }}</td>
+          <td>{{ item.content }}</td>
+          <td>{{ item.c_time }}</td>
           <td>
             <button class="btn btn-success" title="add" style="margin:0 10px ">
               <p>add</p>
@@ -49,7 +49,7 @@ import {reactive, onMounted, toRefs} from "vue";
 export default {
   name: "message_board",
   setup() {
-    let base_url = "http://127.0.0.1:8001/rest_api/message_board/"
+    let base_url = "http://127.0.0.1:8000/rest_api/message_board/"
     const state = reactive({
       ly_list: []
     })
